@@ -1,0 +1,15 @@
+/* Corrected CSS using calc() */
+
+.container {
+  width: calc(100% - 20px); /* Correct: includes unit for subtraction */
+}
+
+.element {
+  width: calc(50% - (10px + 5px)); /* Correct: uses parentheses for complex expressions */
+  height: calc(100px + 2em);
+}
+
+/* Example of compatible units */
+.anotherElement {
+  width: calc(50% - 2rem); /* Correct: uses compatible units */
+}
